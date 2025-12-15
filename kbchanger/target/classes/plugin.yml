@@ -1,0 +1,16 @@
+name: niggakb
+version: 1.0
+main: com.beast.kbchanger.Kbchanger
+api-version: 1.8
+author: YourName
+description: A customizable knockback changer for Carbon Spigot.
+commands:
+  kb:
+    description: Reloads the KB configuration.
+    usage: /kb reload
+    permission: kb.reload
+    permission-message: You do not have permission to use this command.
+permissions:
+  kb.reload:
+    description: Allows reloading the knockback config.
+    default: op

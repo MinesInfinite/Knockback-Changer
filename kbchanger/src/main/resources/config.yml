@@ -1,0 +1,20 @@
+messages:
+  reload: "&aKnockback configuration reloaded!"
+
+knockback:
+  w-tap:
+    enabled: true
+    multiplier: 0.2
+
+  ground:
+    horizontal: 0.4
+    vertical: 0.3
+
+  air:
+    horizontal: 0.5
+    vertical: 0.4
+
+  cap-horizontal: true
+  cap-vertical: true
+  h-limit: 3.0
+  v-limit: 3.0
